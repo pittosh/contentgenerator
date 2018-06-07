@@ -1,0 +1,27 @@
+---
+title: Do’s and Don’ts of Telemedicine
+author: Shahid N. Shah
+type: post
+date: 2012-01-17T13:00:21+00:00
+url: /2012/01/17/dos-and-donts-of-telemedicine/
+oc_commit_id:
+  - https://www.healthcareguy.com/2012/01/17/dos-and-donts-of-telemedicine/1478770781
+dsq_thread_id:
+  - 5180795563
+categories:
+  - Uncategorized
+
+---
+This is the next post in my series of [Do&#8217;s and Don&#8217;ts Healthcare IT][1]. As we all know, some of our most important citizens live in rural settings, small cities, the countryside, or remote areas. These areas have smaller populations and less direct access to vital healthcare resources. In the past 15 years or so we’ve made some great strides in remotely accessible healthcare; these offerings, called _telemedical tools_, provide important clinical care at a distance. Here are some do&#8217;s and don&#8217;ts of telemedicine:
+
+  * Do use commonly available web meeting and online video tools bring expert caregivers anywhere. WebEx, GotoMeeting, Adobe Connect, Skype, and a variety of other “web meeting” tools used mostly in professional office settings and remote sales pitches are wonderful tools to connect caregivers in populated communities to their rural patients. A simple $30 to $50 per month account on the physician side with almost no direct cost for the patient is an excellent way to engage with patients. These kinds of web meetings can happen securely either at the patient’s home or patients can be brought into satellite offices with high-quality telepresence. Then, instead of waiting for days or weeks for a health professional to travel to an area or patients having to take off many hours or entire days traveling to experts in big cities, care can be given almost immediately with less inconvenience. Don&#8217;t assume that kinds of web meeting solutions are HIPAA compliant out of the box; however, do realize they can be made HIPAA compliant with appropriate protections.
+  * Do use medical devices for remote monitoring of in-home care improve clinical observations. While web meetings are great for basic primary care, it’s not perfect for elder care, long-term care, and other types of clinical requirements. There is a new class of devices that can put near-hospital-quality patient monitoring devices into patient homes and “beam” that data to monitoring centers that can watch for important events across many patients in different geographical areas. Toss in a nurse or other caregiver that can visit once a week or once a month to calibrate the devices and you can see how much more convenience patients can have and have their physicians, wherever they may be, have immediate access to their actual vitals and clinical status.
+  * Don&#8217;t assume that medical device connectivity will be fast or easy to do on your own &#8212; you&#8217;ll need something like [Qualcomm&#8217;s 2net platform][2]. 2net is a trustable, Class I FDA-listed, standalone gateway with an embedded cellular component that sends clinical data truly “in the cloud” without requiring local internet connectivity. Medical data can be sent from devices in the same way that e-books can be read on Kindle devices – using 3G cellular, from mobile phones, and software APIs.
+  * Don&#8217;t always send patients to labs; instead, take labs to patients with mobile imaging and lab specimen collections that allow remote reading and web-based report distribution. It’s difficult for many rural communities to have their own full diagnosticians but mobile imaging centers and lab specimen “kiosks” can do the X-rays, take pictures, and perform collections and then send the data electronically to large populated centers where they can be “read” and analyzed; the reports can be distributed via secure e-mail or other web-based applications to doctors in the rural areas or physicians remotely available and connected through web meeting or other similar tools.
+  * Do try and make behavioral health, mental health, and related care made more accessible. Veterans of our foreign wars are coming home with many problems that can be easily diagnosed with proper access and many of the veterans live in rural communities; while primary care and specialty care is difficult to get in smaller population regions, behavioral and mental health is even harder to access. Telemedical assistance through online chat, Skype-like video conversations, and secure online messaging can provide quick relief.
+  * Don&#8217;t leave patients on their own and encourage them to join online communities. Online community building tools allow populated city citizens to meld with their rural counterparts. Patients helping other patients is a terrific approach to extending care; sometimes what a patient needs is not necessarily a health professional but a curated session with fellow patients going through the same problems. Online, electronic, community tools such as PatientsLikeMe.com can connect geographic communities and bring them closer together without increasing costs or requiring anything more than a simple mobile phone or computer.
+
+What do&#8217;s and don&#8217;ts would you add to a telemedicine strategy? Drop me a comment below.
+
+ [1]: https://www.healthcareguy.com/2012/01/13/dos-and-donts-of-mobilemhealth-strategy-for-hospitals-and-hcps/
+ [2]: http://www.qualcomm.com/solutions/healthcare

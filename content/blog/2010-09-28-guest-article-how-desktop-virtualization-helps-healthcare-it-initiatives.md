@@ -1,0 +1,41 @@
+---
+title: 'Guest Article: How desktop virtualization helps healthcare IT initiatives'
+author: Shahid N. Shah
+type: post
+date: 2010-09-29T01:24:16+00:00
+url: /2010/09/28/guest-article-how-desktop-virtualization-helps-healthcare-it-initiatives/
+oc_commit_id:
+  - https://www.healthcareguy.com/2010/09/28/guest-article-how-desktop-virtualization-helps-healthcare-it-initiatives/1478770704
+dsq_thread_id:
+  - 148417051
+categories:
+  - Uncategorized
+
+---
+_I&#8217;ve been getting many questions about whether hospitals and physician offices should be considering desktop virtualization (there&#8217;s a fear that virtualization is not secure or may not work). To help answer the question, I invited Ryan Pope, a Product Manager at [2X Software][1] which develops enterprise server-based virtual computing software, to tell us a bit about virtualization in healthcare. 2X software enables desktop virtualization and application streaming on personal computers and thin client devices and these guys know their stuff. Here&#8217;s what Ryan had to say:_
+
+Virtualization holds great promise for healthcare IT environments. With centralized management in place, hardware and software upgrades, application settings, technical support, storage and data backup are made significantly easier for administrators, since management is required only for the server farm as opposed to hundreds or thousands of individual user machines. Hardware also plays a more flexible role; since individual machines are simply transmitting datacenter output, efficient, low-cost hardware can replace heavy, inefficient “fat client” machines, streamlining system operation and offering significant savings for IT budgets.
+
+Increased use of desktop virtualization technology also offers the following benefits:
+
+**1.** **Management** – With all core applications accessed through a centrally-managed datacenter, administrators can easily deploy, manage and support applications much more easily from a single point, rather than tracking application use on many individual operating systems. Ease of management provides for secure and easy-to-track application and significant time savings, as IT managers need only check their datacenter rather than desktops distributed across a large hospital, for example. Though concentrating application management in the datacenter increases the damage resulting from server farm outages, proper redundancy and failover precautions can be taken to ensure that maximum datacenter uptime is allowed.
+
+**2.** **Hardware Independence** – By harnessing the processing power of their datacenter rather than individual machines, users can access their personal desktop and core applications from any type of client device, including outdated hardware or small, lean “thin client” devices. Certainly, care must be taken to ensure that client devices are compatible with server hardware used; yet properly implemented, device independence can allow administrators to continue using legacy hardware that would ordinarily have to be replaced, offering significant cost savings in the process, or switch to small energy-efficient devices that would be unable to function as stand-alone desktops. Hardware independence can be instrumental in increasing network efficiency, and allowing the streamlining of expansive healthcare facilities.
+
+**3.** **Remote Access** – In allowing individual machines a direct network connection to the datacenter, users can use these connections to access their applications from anywhere with an Internet connection. Productivity can therefore be improved by allowing users access to key applications regardless of whether their physical desktop is operational, while stability is enhanced by ensuring application delivery to any machine they choose. Users must know the proper datacenter connection settings, but these can frequently be predefined for the user upon login. Home care nurses could thus access applications from their patients’ residences, while still maintaining the same access while at the hospital.
+
+**4.** **Security** – By using a central datacenter for all core applications, data is secured in a safe, central location without it being “spread” to less-secure individual client computers. Concentrating sensitive network data may seem to present security vulnerabilities, and it can do so without necessary security precautions in place, such as SSL-secured connections and frequent firewall use where appropriate. While data losses might ordinarily be difficult to trace in a typical stand-alone desktop environment, these can be easily traced to the datacenter in a server-based computing network, providing the security traceability needed for sensitive medical environments.
+
+**5.** **Virus/Agent Attacks** – With application delivery originating from the datacenter, agent attacks can only be effective by penetrating the datacenter’s defenses, giving viruses and agents a single point of attack.  In contrast, a non-SBC network can be compromised through any of its individual client machines, forcing administrators to constantly check whether each machine is adequately secure and increasing the probability of a successful attack. Patient and doctor’s EMR records can thus be safely stored and accessed with a minimal chance of outside agent penetration. In the rare event that a datacenter virus is contracted, the issue can frequently be isolated to a subset of the farm, rather than risk exposure to the entire network.
+
+**6.** **Upgrades** – Upgrades for users’ machines are made simple, as when upgrades or patches are implemented for datacenter applications, users can access updated applications immediately, avoiding the time-intensive process of installing patches and upgrades to each machine individually. Where upgrades are not needed for all clients, modified application settings can frequently be filtered by user or IP to allow for specific upgrades.
+
+**7.** **Licensing Savings** – By using datacenter-installed applications rather than their own personal copy, firms typically need a much smaller number of licenses in an SBC network, many times reducing the network’s total cost of ownership (TCO) to a fraction of the typical cost. This certainly depends upon the application in question, as many may still require licenses for each independent user; however, if concurrent user-licensing is used, administrators can support a large number of potential users with a small number of concurrent licenses, offering potentially significant licensing savings, depending upon the application.
+
+**8.** **Scalability** – Additional capacity can be easily added in a datacenter-focused network, simply by enhancing the size and speed of the datacenter. In contrast, physically enhancing hundreds of individual machines can prove daunting for IT staff. Again, the compatibility of the devices used should always be considered.
+
+**9.** **Increased Availability** – By focusing server resources in the datacenter, server performance can be optimized using resource-based load balancing technology, assigning application processing jobs to hardware with most available resources. Failover settings can also be established to ensure that, even in the event of server failure, other servers can instantly step in to handle heavy processing loads.
+
+It’s tempting to peg so many benefits as helping a firm’s IT operations alone; yet, server-based computing benefits typically flow out to enhance company operations as a whole. Licensing and hardware cost savings leave IT managers with more funds for additional projects, increasing company productivity and preventing large budget outlays. Remote access allows health center employees to access applications to work from any location, helping them stay productive on the road, or during disaster-related outages. When technical problems arise, increased availability means users will be waiting minutes rather than hours or days for their applications and desktops to be restored. As we’ve seen with many of our own customers, choosing server-based computing solutions begins rewarding healthcare organizations immediately, making them efficient and competitive in an uncertain economic environment.
+
+ [1]: http://www.2x.com

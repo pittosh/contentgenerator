@@ -1,0 +1,35 @@
+---
+title: 'Guest Article: Lessons from the trenches – transitioning to EMR without risking data loss'
+author: Shahid N. Shah
+type: post
+date: 2010-08-01T18:06:22+00:00
+url: /2010/08/01/guest-article-lessons-from-the-trenches-transitioning-to-emr-without-risking-data-loss/
+oc_commit_id:
+  - https://www.healthcareguy.com/2010/08/01/guest-article-lessons-from-the-trenches-transitioning-to-emr-without-risking-data-loss/1478770695
+dsq_thread_id:
+  - 124794775
+categories:
+  - Uncategorized
+
+---
+_The government&#8217;s promise of billions in EHR incentives has you interested in what you might be able to get so many of you are looking for advice and lessons learned from practices who have taken the leap to EMRs. I invited James Andrassy__, M.Ed,_ _PA-C__, who_ _has worked as a healthcare provider for the past 33 years to talk about some practical lessons. As the practice administrator and network engineer for Gastroenterology Associates of Cleveland and the Cleveland Center for Digestive Health and Endoscopy, he has seen many kinds of problems so_ _I asked him to talk about EMR data management, specifically data loss. Data loss is something people don&#8217;t usually worry about when they&#8217;re on paper so they don&#8217;t make the necessary technical plans. Also, don&#8217;t forget, if you&#8217;re looking for EMR and EHR buying advice [check out my free resources][1] which also talks about this topic. Now on to the main event &#8211; here&#8217;s what James said about how he protected his data while transitioning to EMRs:
+  
+_ 
+
+__Like many healthcare providers, we have been dealing with explosive data growth for some time.  Other organizations have dealt with this trend by moving to electronic medical records (EMR), and Gastroenterology Associates of Cleveland recently decided that was our best bet for managing the data load, as well.  It’s easy to see why; for any business, an interruption of data accessibility or data loss or corruption caused by a hardware or software malfunction is a problem.  For healthcare groups, the slightest data snag can have a direct impact on patient care and general operational efficiency. Natural disasters can be even more devastating to organizations like ours by interrupting all operations for an extended period of time and potentially causing major data losses.  For these reasons, we began exploring  a comprehensive data protection solution that will provide continuous data availability and full disaster recovery (DR) capability.
+
+Our practice, the Gastroenterology Associates of Cleveland, is a seven-physician practice operating since 1965.  We are in the process of transitioning our patient data to EMRs.  We have two offices, but we host all of our data in a 16,000-square-foot patient care office and surgery center.  This data consists of patient demographic and financial information, digital photographic images obtained in our surgery center, as well as accounting, human resource and insurance contract information. We store about four terabytes of data, but we expect that will increase as we move toward completely electronic records.
+
+In order to ensure a seamless transition, we first needed to guarantee that all data would be continuously available and recoverable.  The move to EMR means we no longer have access to paper records.  So, if the server goes down, our physicians can’t just run down the hall and pull the patient’s file as they once might have.  Continuous data availability during this process was an absolute requirement to ensure patient safety, as well general, everyday operations.  We needed a solution that could ensure 99 percent data reliability and fast, simple recovery.  To meet this goal, we implemented continuous data protection (CDP) and virtualization solutions from FalconStor Software.
+
+We did our research before we embarked on the project and found that there were several factors we had to consider before making any purchase.  For example:
+
+  1. Many backup plans focus on the storage and archiving of data rather than the protection or recovery of the whole system or site. If a system disk is damaged or corrupted, we would be faced with the time-consuming task of re-installing the operating system and applications and then restoring information from previously performed backups to fully recover the entire system. We knew we couldn’t afford the cost in time or money of something like that.
+  2. _High-speed, disk-based data protection delivers instant, granular recovery._ By keeping a complete mirrored copy of data in its native format, as well as a series of application- and system-aware point-in-time snapshots, we’re ready for all disaster scenarios – including accidental data loss, system corruption, server or storage failure, and site-level disaster.  We knew this was a must-have for us.
+  3. _Data journaling is a useful feature, specifically for a medical practice._ This capability protects information at a per-write level of granularity, allowing recovery up to the last bit of information written before a service outage. I certainly hope we never need it, but if we do have an outage, I can assure our staff of far more recovery points than a typical nightly tape backup could provide.  Keeping in mind the way in which our physicians add data to files incrementally, I knew data journaling was important for us.
+  4. _Storage virtualization is an attractive option_ for a small business like ours facing an ever-increasing amount of data. For us, increased data groupings had resulted in separate islands of storage in the data center, each requiring independent management and protection policies, complicating storage administration. This complexity resulted in resources that were either under- or over-utilized, which is both a waste of power and money. Virtualization allows us to consolidate storage resources into one virtual pool for simple, centralized management with flexibility, reducing primary storage capacity requirements and cutting storage capital investment.  We have also found that virtualization increases day-to-day operational efficiency, reduces overhead costs and allows for quick recovery.
+  5. We wanted to remain _vendor agnostic_, so we sought out a software-based solution that allows for the integration of affordable disk hardware from any vendor – avoiding an expensive commitment to one supplier.
+
+In deploying virtualization and CDP, we guaranteed ourselves a reliable data protection scenario during our transition to EMR.  Our restore times have been decreased for corrupted files or lost partitions.  Lengthy recovery time, which once took over a week, can now be completed in minutes, rather than hours and days, making patient data continuously available.
+
+ [1]: http://www.hitsphere.com/free-healthcare-medical-software-buying-advice

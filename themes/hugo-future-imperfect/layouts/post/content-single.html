@@ -1,0 +1,39 @@
+<article class="post">
+  {{ .Render "header" }}
+
+  {{ if .Site.Params.socialShare }}
+    <section id="social-share">
+      <ul class="icons">
+        {{ partial "share-links" . }}
+      </ul>
+    </section>
+  {{ end }}
+ 
+
+  <div id="content">
+ {{ with .Params.featured_image }}
+  {{$fi := add ($.Site.Params.imagedir | default "img") . }}
+  <img src="{{$fi | relURL}}" alt="{{$.Params.image_alt | default "Healthcareguy"}}">
+  {{ end }}
+   {{ .Content }} 
+
+  <form class="post-new-comment" method="POST" action="https://dev.staticman.net/v2/entry/githubvinod/devlhealthcareguy/master/posts">
+  <input type="hidden" name="options[redirect]" value="http://devlhealthcareguy.netlify.com">
+  <input name="fields[title]" type="text" class="post-comment-field" placeholder="Title">
+  <textarea name="fields[body]" class="post-comment-field" placeholder="The content. Feel free to use Markdown." rows="10"></textarea>
+  <input type="submit" class="post-comment-field btn" value="Submit">
+</form>
+
+<div id="post-submitted" class="dialog">
+  
+</div>
+   
+  </div>
+
+  <footer>
+    {{ .Render "footer-category" }}
+  </footer>
+
+</article>
+{{ .Render "comments" }}
+{{ .Render "prev-next" }}
